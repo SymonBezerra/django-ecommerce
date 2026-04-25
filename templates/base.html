@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock %}</title>
     <link href="{% static 'styles.css' %}" rel="stylesheet">
-    {% block styles %}{% endblock %}
-    <script src="//unpkg.com/alpinejs" defer></script>
+    {% block head %}{% endblock %}
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 
 <body>
