@@ -1,5 +1,6 @@
 {% load static %}
+{% csrf_token %}
 <div class="ecommerce-sidebar" id="sidebar">
 </div>
 
-<script src="{% static 'js/dist/sidebar.js' %}"></script>
+<script src="{% static 'dist/sidebar.js' %}" type="module"></script>

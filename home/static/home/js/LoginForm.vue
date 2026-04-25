@@ -4,9 +4,9 @@
             <h2>Ecommerce</h2>
             <div class="login-item">
                 <p>Username</p>
-                <input type="text" placeholder="Enter your username" v-model="username">
+                <input type="text" placeholder="Enter your username" v-model="username" @keydown.enter="submitLogin()">
                 <p>Password</p>
-                <input type="password" placeholder="Enter your password" v-model="password">
+                <input type="password" placeholder="Enter your password" v-model="password" @keydown.enter="submitLogin()">
             </div>
             <div class="login-submit" @click="submitLogin()">Login</div>
             <p style="color: red;">{{ errorMsg }}</p>
