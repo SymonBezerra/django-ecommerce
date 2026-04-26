@@ -40,6 +40,10 @@ export default {
     },
     methods: {
         async submitLogin () {
+            if (!this.username || !this.password) {
+                this.errorMsg = "Please enter both username and password.";
+                return;
+            }
             const response = await fetch('/login/', {
                 method: 'POST',
                 headers: {

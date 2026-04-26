@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "v-mask": "^2.3.0",
+    "v-money": "^0.8.1",
     "vue": "^3.5.32"
   },
   "devDependencies": {

@@ -17,6 +17,7 @@ export default defineConfig({
       input: {
         sidebar: path.resolve(__dirname, 'static/js/sidebar.js'),
         login: path.resolve(__dirname, 'home/static/home/js/login.js'),
+        product_create: path.resolve(__dirname, 'products/static/products/js/product_create.js'),
       }
     }
   }

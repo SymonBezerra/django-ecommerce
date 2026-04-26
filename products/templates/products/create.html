@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Create Product{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'products/styles.css' %}">
+{% endblock %}
+
+{% block content %}
+{% csrf_token %}
+<div id="product-create-app"></div>
+<script src="{% static 'dist/product_create.js' %}" type="module"></script>
+{% endblock %}

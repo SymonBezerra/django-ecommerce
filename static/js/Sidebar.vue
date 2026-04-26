@@ -4,7 +4,7 @@
         <h3></h3>
     </a>
 
-    <a href="#">Products</a>
+    <a href="/products/">Products</a>
     <a href="#">Sales</a>
     <a href="#">Users</a>
     <div style="flex: 1;"></div>
